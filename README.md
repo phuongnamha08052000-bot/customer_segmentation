@@ -3,7 +3,7 @@ Conduct unsupervised learning to segment customers based on their behavioral dat
 Project Overview
 Unsupervised customer segmentation on a direct-marketing dataset to uncover behavioral segments that differ on spend mix, channel usage, recency, and promotion responsiveness. The workflow covers data cleaning, outlier handling, feature engineering, scaling, dimensionality reduction for visualization, and a model bake-off across several clustering algorithms. 
 
-Data & Features (selected)
+Data & Features 
 Core behavior & spend: Mnt* (wines, meat, fish, fruits, sweets, gold), Num*Purchases (web, catalog, store, deals), NumWebVisitsMonth, Recency, Response/AcceptedCmp*
 Light cleaning: consolidated rare categories, imputed Income median, capped one extreme outlier, dropped ID.
 Derived examples used in profiling / rules: Expenses (aggregate spend), NumTotalPurchases, AmountPerPurchase, TotalAcceptedCmp.
